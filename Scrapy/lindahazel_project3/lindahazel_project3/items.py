@@ -6,11 +6,9 @@
 import scrapy
 
 
-class HelloscrapyItem(scrapy.Item):
+class LindahazelProject3Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-   
-    title = scrapy.Field()
-    description = scrapy.Field()
 
+    category = scrapy.Field()
     pass

@@ -1,10 +1,11 @@
 import scrapy
+from lindahazel_project2 import LindahazelProject2Item
 
 
 class LindahazelSpider(scrapy.Spider):
     name = "lindahazel"
     allowed_domains = ["davelee-fun.github.io"]
-    start_urls = ["https://davelee-fun.github.io/"]
+    start_urls = ["https://davelees-fun.github.io/"]
 
     def parse(self, response):
         # Field
